@@ -48,6 +48,13 @@ What´s happening and what have I changed
 11. Trying to compile easytest.cpp 
 12. Have included inputs.h in the include to get some data from internet
 13. Gotting some problem - have replaced void with int in the main function
-14. 
+14. Changes in inputs.h from #define ECG_DB_PATH to char ECG_DB_PATH[]= and ended after the row with a ; 
+15. On Row 140 in easytest.cpp I added a 0 to the Return function - as it not returning anything
+16. Same on Row 152 in easytest.cpp I added a 0 to the Return function - as its not returgnin anything
+17. Renamed bxbep.cpp to bxp.cpp in Makefile as this throwing an error at compile
+18. When running make now it´s throwing a lot of error from bxb.cpp 
+19. Need to add int instead of void in the main function in bxb.cpp
+20. 
+21. 
 
 
