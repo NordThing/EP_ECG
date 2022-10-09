@@ -770,9 +770,11 @@ void CombineDomData(int oldType, int newType)
 /***********************************************************************
 	GetRunCount() checks how many of the present beat type have occurred
 	in a row.
+	20221009 Henrik ALlberg
+	Added the int before the function to get it to compile.
 ***********************************************************************/
 
-GetRunCount()
+int GetRunCount()
 	{
 	int i ;
 	for(i = 1; (i < 8) && (RecentTypes[0] == RecentTypes[i]); ++i) ;
