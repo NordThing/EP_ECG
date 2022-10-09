@@ -3,19 +3,33 @@
 Trying to do a compile from beginning - 2022-10-09 
 Using Linux and G++ 
 
-Renaming all CASE LETTERS to small letter.h
+With the gcc -c this files get success:
+1. analbeat.cpp
+2. bdac.cpp
+3. match.cpp
+4. noisechk.cpp
+5. postclas.cpp
+6. qrsfilt.cpp
+7. rythmchk.cpp
 
-What´s happening and what have I changed 
-1. g++ -c ANALBEAT.CPP 
-1a. complaining about bdac.h is missing 
-1b. rename from BDAC.H to bdac.h 
-1c. g++ -c ANALBEAT.CPP 
-1d. SUCCESS and file ANALBEAT.o is created
-2. g++ -c BDAC.CPP
-2a. SUCCESS and file BDAC.o is created
-3. g++ -c BXB.CPP
-3a. complaining about wfdb.h is missing
-3b. rename WFDB.H to wfdb.h 
+Following are not working out of the box 
+1. classify.cpp
+2. bxb.cpp
+3. easytest.cpp
+4. qrsdet2.cpp
+5. qrsdet.cpp
+
+Followin fixes are made to get it compiled fro classify.cpp
+1. classify.cpp 
+2. Go to line 775 
+3. add an int before GetRunCount()
+
+Following fixes are made to get the QRSDET and QRSDET2.cpp
+1. qrsdet.cpp
+2. There is a depreceated <mem.h> this needs to be replaced with stdio.h 
+3. Add also <string.h> 
+
+
 3c. run the g++ -c BXB.CPP
 3d. complaining that ecgmap.h is missing
 3e. rename the ECGMAP.H to ecgmap.h
@@ -25,9 +39,6 @@ What´s happening and what have I changed
 3i. run the g++ -c BXB.CPP
 3j. Compiles but complain a lot - waiting
 
-4. run the g++ -c CLASSIFY.CPP
-4a. Complains about ISO C++ forbids declaration of "GetRunCount" with no type [-fpermissive]
-4b. add that the GetRunCount should be an integer, so an Int before GetRunCount
 
 
 5.run the QRSDET.CPP and QRSDET2.CPP 
