@@ -163,7 +163,9 @@ void main()
 			// Set baseline to 0 and resolution to 5 mV/lsb (200 units/mV)
 
 			lTemp = ecg[0]-ADCZero ;
-			lTemp *= 200 ;			lTemp /= ADCUnit ;			ecg[0] = lTemp ;
+			lTemp *= 200 ;
+			lTemp /= ADCUnit ;
+			ecg[0] = lTemp ;
 
 			// Pass sample to beat detection and classification.
 
