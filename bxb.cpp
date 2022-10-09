@@ -118,8 +118,13 @@ long T, Tprime;		/* times of the current & next reference annotations */
 long t, tprime;		/* times of the current & next test annotations */
 char record[20];			/* record name */
 
+#ifdef __STDC__
+#define MAINTYPE int
+#else
+#define MAINTYPE void
+#endif
 
-void main()
+MAINTYPE main()
 	{
 	void genxcmp(), getref(), gettest(), init() ;
 	int recNum ;
