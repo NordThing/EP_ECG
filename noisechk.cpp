@@ -1,5 +1,14 @@
 /*****************************************************************************
-FILE:  noisechk.cppAUTHOR:	Patrick S. HamiltonREVISED:	5/13/2002  ___________________________________________________________________________noisechk.cpp: Noise CheckCopywrite (C) 2001 Patrick S. HamiltonThis file is free software; you can redistribute it and/or modify it underthe terms of the GNU Library General Public License as published by the Free
+FILE:  noisechk.cpp
+AUTHOR:	Patrick S. Hamilton
+REVISED:	5/13/2002
+  ___________________________________________________________________________
+
+noisechk.cpp: Noise Check
+Copywrite (C) 2001 Patrick S. Hamilton
+
+This file is free software; you can redistribute it and/or modify it under
+the terms of the GNU Library General Public License as published by the Free
 Software Foundation; either version 2 of the License, or (at your option) any
 later version.
 
