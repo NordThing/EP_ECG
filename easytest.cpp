@@ -102,7 +102,13 @@ int gcd(int x, int y);
 
 int ADCZero, ADCUnit, InputFileSampleFrequency ;
 
-void main()
+
+#ifdef __STDC__
+#define MAINTYPE int
+#else
+#define MAINTYPE void
+#endif
+MAINTYPE main()
 	{
 	char record[10], fname[20] ;
 	int i, ecg[2], delay, recNum ;
