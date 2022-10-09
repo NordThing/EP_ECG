@@ -26,8 +26,13 @@ Followin fixes are made to get it compiled fro classify.cpp
 
 Following fixes are made to get the QRSDET and QRSDET2.cpp
 1. qrsdet.cpp and qrsdet2.cpp
-2. There is a depreceated <mem.h> this needs to be replaced with stdio.h 
-3. Add also #include <string.h> 
+2. There is a depreceated <mem.h> this needs to be replaced with 
+3. /* For memmove. */
+#ifdef __STDC__
+#include <string.h>
+#else
+#include <mem.h>
+#endif  
 
 
 
