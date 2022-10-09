@@ -1,5 +1,17 @@
 /*****************************************************************************
-FILE:  rythmchk.cppAUTHOR:	Patrick S. HamiltonREVISED:	5/13/2002	10/9/2001: 1.1 Call premature for 12.5% difference with very regular					rhythms.  If short after VV go to QQ.	5/13/2002: Check for NNVNNNV pattern when last interval was QQ.  ___________________________________________________________________________rythmchk.cpp: Rhythm CheckCopywrite (C) 2001 Patrick S. HamiltonThis file is free software; you can redistribute it and/or modify it underthe terms of the GNU Library General Public License as published by the Free
+FILE:  rythmchk.cpp
+AUTHOR:	Patrick S. Hamilton
+REVISED:	5/13/2002
+	10/9/2001: 1.1 Call premature for 12.5% difference with very regular
+					rhythms.  If short after VV go to QQ.
+	5/13/2002: Check for NNVNNNV pattern when last interval was QQ.
+  ___________________________________________________________________________
+
+rythmchk.cpp: Rhythm Check
+Copywrite (C) 2001 Patrick S. Hamilton
+
+This file is free software; you can redistribute it and/or modify it under
+the terms of the GNU Library General Public License as published by the Free
 Software Foundation; either version 2 of the License, or (at your option) any
 later version.
 
