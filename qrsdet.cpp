@@ -56,7 +56,13 @@ Returns:
 
 ****************************************************************/
 
-#include <mem.h>		/* For memmov. */
+/* For memmove. */
+#ifdef __STDC__
+#include <string.h>
+#else
+#include <mem.h>
+#endif
+
 #include <math.h>
 #include "qrsdet.h"
 #define PRE_BLANK	MS200
