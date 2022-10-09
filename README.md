@@ -34,6 +34,13 @@ Following fixes are made to get the QRSDET and QRSDET2.cpp
 #include <mem.h>
 #endif  
 
+Following fixes are made to get the easytest.cpp 
+1. easytest.cpp 
+2. Return functions have been set to Return 0, else it will fail
+3. Row 140 and 152 have been added to Return 0; 
+
+
+
 
 
 
