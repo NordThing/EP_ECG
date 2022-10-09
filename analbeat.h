@@ -1,5 +1,14 @@
 /*****************************************************************************
-FILE:  analbeat.hAUTHOR:	Patrick S. HamiltonREVISED:	12/4/2001  ___________________________________________________________________________analbeat.h: Beat analysis prototype definition.Copywrite (C) 2001 Patrick S. HamiltonThis file is free software; you can redistribute it and/or modify it underthe terms of the GNU Library General Public License as published by the Free
+FILE:  analbeat.h
+AUTHOR:	Patrick S. Hamilton
+REVISED:	12/4/2001
+  ___________________________________________________________________________
+
+analbeat.h: Beat analysis prototype definition.
+Copywrite (C) 2001 Patrick S. Hamilton
+
+This file is free software; you can redistribute it and/or modify it under
+the terms of the GNU Library General Public License as published by the Free
 Software Foundation; either version 2 of the License, or (at your option) any
 later version.
 
