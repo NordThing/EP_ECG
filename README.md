@@ -45,5 +45,9 @@ What´s happening and what have I changed
 10a. run the g++ -c RYTHMCHK.CPP
 10b. SUCCESS
 
+11. Trying to compile easytest.cpp 
+12. Have included inputs.h in the include to get some data from internet
+13. Gotting some problem - have replaced void with int in the main function
+14. 
 
 
