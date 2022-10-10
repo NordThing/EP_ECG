@@ -40,5 +40,10 @@ Following fixes are made to get the easytest.cpp
 3. Row 140 and 152 have been added to Return 0; 
 4. Had to comment out row 184-196 to not rewrite the files
 
+Following fixes are made to get the bxb.cpp 
+1. bxb.cpp 
+2. change path to ". mitdb" 
+3. Results in testrpt.txt
+
 
 
